@@ -1,3 +1,7 @@
+import java.awt.Color;
+import java.awt.Toolkit;
+
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 
@@ -9,5 +13,10 @@ public class App {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(true);
         frame.setVisible(true);
+
+        frame.setIconImage(new ImageIcon("Game Assets/Logo.jpg").getImage());
+        
+        
+        
     }
 }
