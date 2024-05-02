@@ -1,6 +1,6 @@
 import java.awt.Color;
 import java.awt.Toolkit;
-
+import javax.swing.JLabel;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
@@ -16,6 +16,8 @@ public class App {
 
         frame.setIconImage(new ImageIcon("Game Assets/Logo.jpg").getImage());
         
+
+        JLabel image = new JLabel();
         
         
     }
